@@ -48,4 +48,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		addDevSkill(element);
 	});
 
+	document.getElementById('coding-section').addEventListener('click', function() {
+		document.getElementById('coding-section').classList.toggle('coding');
+	});
 });
