@@ -4,7 +4,11 @@ const addDevSkill = function (skill) {
 	document.getElementById("coding-section").appendChild(listItem);
 }
 
-
+const addLadyDev = function (ladyDev) {
+	let listItem = document.createElement('li');
+	listItem.innerHTML = ladyDev;
+	document.getElementById("fellow-ladydevs").appendChild(listItem);
+}
 
 const request = function (item) {
 	return 'I\'d like a ' + item + ', please!';
@@ -35,9 +39,16 @@ const brainSkills = [
 	"Front-End Architecture",
 	"Yeoman",
 	"JavaScript Types"
-   ];
-   
+];
 
+const ladyDevs = [
+	"Grace Hopper",
+	"Evelyn Boyd Granville",
+	"Ada Lovelace",
+	"Barbara Liskov",
+	"Margaret Hamilton",
+	"Sister Mary Kenneth Keller"
+];
 
 document.addEventListener("DOMContentLoaded", function (event) {
 
@@ -48,7 +59,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		addDevSkill(element);
 	});
 
-	document.getElementById('coding-section').addEventListener('click', function() {
+	ladyDevs.forEach(function (element) {
+		addLadyDev(element);
+	});
+
+	document.getElementById('coding-section').addEventListener('click', function () {
 		document.getElementById('coding-section').classList.toggle('coding');
 	});
 });
