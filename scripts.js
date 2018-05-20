@@ -6,16 +6,22 @@ const addDevSkill = function (skill) {
 
 
 
-const <verb> = function (item) {
+const request = function (item) {
 	return 'I\'d like a ' + item + ', please!';
 }
-const <noun> = 'cocktail';
+const drink = 'cocktail';
 
 
 
 const clickHandler = function (text) {
+	numberOfClicks = numberOfClicks + 1;
+	console.log(numberOfClicks);
 
-
+	if (numberOfClicks <= 3) {
+		alert(text);
+	} else {
+		alert("Drink in moderation-- no more cocktails for you!")
+	}
 }
 
 
@@ -26,6 +32,6 @@ const clickHandler = function (text) {
 document.addEventListener("DOMContentLoaded", function (event) {
 
 
-	document.getElementById('cocktail-section').innerHTML = <verb>(<noun>);
+	document.getElementById('cocktail-section').innerHTML = request(drink);
 
 });
