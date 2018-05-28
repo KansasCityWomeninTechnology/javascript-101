@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		addLadyDev(element);
 	});
 
-	document.getElementById('coding-section').addEventListener('click', function () {
+	document.getElementById('coding-section').onclick = function() {
 		document.getElementById('coding-section').classList.toggle('coding');
-	});
+	};
 });
