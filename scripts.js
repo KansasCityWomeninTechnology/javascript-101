@@ -8,7 +8,7 @@ const addDevSkill = function (skill) {
 
 const request = function (item) {
 	return 'I\'d like a ' + item + ', please!';
-}
+};
 const drink = 'cocktail';
 
 
