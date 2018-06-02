@@ -2,7 +2,7 @@ const addDevSkill = function (skill) {
 	let listItem = document.createElement('li');
 	listItem.innerHTML = skill;
 	document.getElementById("coding-section").appendChild(listItem);
-}
+};
 
 
 
