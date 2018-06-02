@@ -2,21 +2,21 @@ const addDevSkill = function (skill) {
 	let listItem = document.createElement('li');
 	listItem.innerHTML = skill;
 	document.getElementById("coding-section").appendChild(listItem);
-}
+};
 
 const addLadyDev = function (ladyDev) {
 	let listItem = document.createElement('li');
 	listItem.innerHTML = ladyDev;
 	document.getElementById("fellow-ladydevs").appendChild(listItem);
-}
+};
 
 const request = function (item) {
 	return 'I\'d like a ' + item + ', please!';
-}
+};
 const drink = 'cocktail';
 
 
-
+let numberOfClicks = 0;
 const clickHandler = function (text) {
 	numberOfClicks = numberOfClicks + 1;
 	console.log(numberOfClicks);
@@ -26,7 +26,7 @@ const clickHandler = function (text) {
 	} else {
 		alert("Drink in moderation-- no more cocktails for you!")
 	}
-}
+};
 
 
 // Declare brainSkills array below this line
