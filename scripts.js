@@ -8,7 +8,7 @@ const addDevSkill = function (skill) {
 
 const <verb> = function (item) {
 	return 'I\'d like a ' + item + ', please!';
-}
+};
 const <noun> = 'cocktail';
 
 
@@ -16,7 +16,7 @@ const <noun> = 'cocktail';
 const clickHandler = function (text) {
 
 
-}
+};
 
 
 // Declare brainSkills array below this line
