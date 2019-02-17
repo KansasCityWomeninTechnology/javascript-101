@@ -62,8 +62,4 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	ladyDevs.forEach(function (element) {
 		addLadyDev(element);
 	});
-
-	document.getElementById('coding-section').onclick = function() {
-		document.getElementById('coding-section').classList.toggle('coding');
-	};
 });
