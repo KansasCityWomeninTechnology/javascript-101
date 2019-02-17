@@ -31,13 +31,12 @@ const clickHandler = function (text) {
 
 // Declare brainSkills array below this line
 const brainSkills = [
+	"Front-End Architecture",
 	"HTML",
 	"CSS",
 	"Command line operations",
 	"Vim",
 	"Git",
-	"Front-End Architecture",
-	"Yeoman",
 	"JavaScript Types"
 ];
 
