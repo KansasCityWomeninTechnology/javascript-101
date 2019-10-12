@@ -1,0 +1,16 @@
+{
+   "name": "javascript-101",
+   "version": "0.0.0",
+   "description": "JavaScript 101",
+   "main": "index.html",
+   "repository": {
+     "type": "git",
+     "url": "git+https://github.com/KansasCityWomeninTechnology/javascript-101.git"
+   },
+   "author": "Coding & Cocktails",
+   "license": "CC-BY-SA-4.0",
+   "bugs": {
+     "url": "https://github.com/KansasCityWomeninTechnology/javascript-101/issues"
+   }
+ }
+ 
