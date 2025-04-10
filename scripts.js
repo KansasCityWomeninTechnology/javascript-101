@@ -15,7 +15,7 @@ const drink = 'cocktail';
 let numberOfClicks = 0;
 const clickHandler = function (text) {
 	numberOfClicks = numberOfClicks + 1;
-	console.log(numberOfClicks);
+	console.log('numberOfClicks', numberOfClicks);
 
 	if (numberOfClicks <= 3) {
 		alert(text);
